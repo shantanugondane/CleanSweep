@@ -17,13 +17,13 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 selected = option_menu(
     menu_title=None,
-    options=["Detection","About"],
+    options=["Clean Data","About"],
     icons=["search","book"],
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
 )
-if selected == "Detection":
+if selected == "Clean Data":
 
     st.title("CLEANSWEEP")
 
