@@ -23,7 +23,7 @@ selected = option_menu(
     default_index=0,
     orientation="horizontal",
 )
-if selected == "Detection":
+if selected == "Clean data":
 
     st.title("CLEANSWEEP")
 
