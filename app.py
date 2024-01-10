@@ -14,6 +14,7 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             </style>
             """
+# Markdown navbar
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 selected = option_menu(
     menu_title=None,
